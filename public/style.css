@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f3f4f8; color: #222; }
+header { background: #1f2a44; color: #fff; padding: 16px 20px; }
+header h1 { margin: 0 0 8px; font-size: 1.4rem; }
+nav a { color: #9ec1ff; margin-right: 14px; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+main { max-width: 640px; margin: 20px auto; padding: 0 16px; }
+.filter { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+input { padding: 8px; width: 110px; border: 1px solid #bbb; border-radius: 6px; }
+button { padding: 8px 14px; border: 0; border-radius: 6px; background: #2f5bea; color: #fff; cursor: pointer; }
+button.secondary { background: #888; }
+#message { min-height: 1.2em; color: #b00020; }
+#message.info { color: #555; }
+ul { list-style: none; padding: 0; margin: 0; }
+li { background: #fff; padding: 12px 14px; margin-bottom: 8px; border-radius: 8px;
+     display: flex; justify-content: space-between; align-items: center;
+     box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.year { color: #777; font-size: .85rem; margin-left: 8px; }
+.rating { font-weight: 700; color: #1b7f3b; }
