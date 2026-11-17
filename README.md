@@ -15,17 +15,17 @@
 
 1.Настроил окружение: поставил Python, создал .venv, установил FastAPI и Uvicorn.
 
-3.Написал сервер (app.py): маршруты /, /about, /api/status, /api/movies, массив фильмов, фильтр ?minRating=, сортировка по убыванию рейтинга, ошибка 400 при невалидном значении.
+2.Написал сервер (app.py): маршруты /, /about, /api/status, /api/movies, массив фильмов, фильтр ?minRating=, сортировка по убыванию рейтинга, ошибка 400 при невалидном значении.
 
-4.Сделал страницы: index.html со списком и фильром, about.html, оформление style.css.
+3.Сделал страницы: index.html со списком и фильром, about.html, оформление style.css.
 
-5.Написал app.js: запрашивает /api/movies, выводит список, показывает ошибки.
+4.Написал app.js: запрашивает /api/movies, выводит список, показывает ошибки.
 
-6.Сгенерировал иконки скриптом make_icons.py (192 и 512px)
+5.Сгенерировал иконки скриптом make_icons.py (192 и 512px)
 
-7.Сделал PWA: manifest.json с иконками подключен в HTML, sw.js кеширует файлы и отдаёт их из кеша без сети, регистрация service worker в app.js и about.html
+6.Сделал PWA: manifest.json с иконками подключен в HTML, sw.js кеширует файлы и отдаёт их из кеша без сети, регистрация service worker в app.js и about.html
 
-8.Подготовил служебные файлы requirement.txt, .gitignore, README.md.
+7.Подготовил служебные файлы requirement.txt, .gitignore, README.md.
 
 
 ## Стек
